@@ -1,0 +1,52 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.carousel-container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.carousel {
+  height: 100%;
+}
+
+.carousel .slider-wrapper {
+  height: 100%;
+}
+
+.carousel .slider-wrapper .slider {
+  height: 100%;
+}
+
+.carousel .slider-wrapper .slider .slider-slide {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.arrow-prev,
+.arrow-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.arrow-prev {
+  left: 10px;
+}
+
+.arrow-next {
+  right: 10px;
+}
